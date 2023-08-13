@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PeerJS Chat App</title>
+    <script src="https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js"></script>
+</head>
+
+<body>
+    <h1>PeerJS Chat App</h1>
+    
+    <div>
+        <h2>Connect to peer</h2>
+        <input type="text" id="peerConnect" placeholder="Enter peer's ID to connect">
+        <button id="connectButton">Connect</button>
+    </div>
+
+    <div>
+        <h2>Chat Log</h2>
+        <div id="chatLog" style="border: 1px solid #ccc; padding: 10px; height: 200px; overflow-y: scroll;"></div>
+    </div>
+    
+    <div>
+        <h2>Send Message</h2>
+        <input type="text" id="messageInput" placeholder="Enter your message">
+        <button id="sendButton">Send</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
